@@ -1,0 +1,305 @@
+/* General styling */
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.spacer_header {
+    height: 100px;
+}
+.text-orange {
+    color: #ec7e81;
+}
+/* Navigation section */
+.__mobileIcon {
+    display: none;
+}
+.__headerSection {
+    background: transparent;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 60;
+    padding: 0px;
+}
+.__headerSection .__headerContianer {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+}
+.__headerSection .nav-item a {
+    line-height: inherit;
+    padding: 0 1vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 17px;
+    margin-left: 0;
+    font-weight: 600;
+    margin-right: 0;
+}
+.__headerSection li a {
+    color: #151218;
+}
+.__headerContianer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.__leftContainer a img {
+    max-height: 35px;
+    display: inherit;
+}
+ul#primary-menu {
+    display: inline-flex;
+}
+ul#primary-menu li {
+    display: inline-block;
+    padding: 15px;
+}
+ul#primary-menu li a {
+    text-decoration: none;
+}
+.main-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.__leftContainer, .__rightContainer {
+    display: flex;
+    align-items: center;
+}
+.__leftContainer {
+    white-space: nowrap;
+}
+/* Contact pages */
+.__heroSection {
+    padding: 120px 0px;
+}
+.__heroSection h2.__header {
+    font-size: 3rem;
+    color: #151218;
+    font-weight: 600;
+}
+.contact.__heroSection p.__subheader {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.__contactArea {
+    padding: 30px;
+    box-shadow: 52px 52px 74px 0 rgb(115 131 169 / 8%);
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+.__contactArea .__innerArea {
+    padding: 50px 0px;
+}
+.__contactArea p.__message {
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(55, 64, 74);
+}
+.__contactArea .__innerArea img {
+    max-width: 350px;
+}
+.__greyArea {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px 0px;
+} 
+.__greyArea .__topParagraph {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(55, 64, 74);
+}
+.__greyArea .__contactButton {
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 3px 12px 0px;
+    padding: 8px 18px;
+    min-height: 48px;
+    background-color: rgb(55, 64, 74);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.__bottomDesign {
+    padding: 120px 0px;
+}
+.__smallCardDesign {
+    background: #fff;
+    box-shadow: 52px 52px 74px 0 rgb(115 131 169 / 8%);
+    transition: 0.25s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+.__smallCardDesign .icon_box {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 50px;
+}
+.__smallCardDesign .icon_box i {
+    color: #ec7e81;
+}
+.__smallCardDesign h4 {
+    font-weight: 600;
+    margin: 15px auto;
+    text-align: center;
+    color: #151218;
+    font-size: 30px;
+}
+.__smallCardDesign p.__email {
+    font-size: 17px;
+    text-align: center;
+}
+.__smallCardDesign p.__text {
+    font-size: 17px;
+    text-align: center;
+}
+.__smallCardDesign p.__email a {
+    color: #ec7e81;
+}
+/* About pages */
+.about.__heroSection p.__subheader {
+    width: 65%;
+    font-size: 17px;
+    font-weight: 500;
+}
+.__bouncingBall {
+    position: absolute;
+    z-index: 9;
+    top: -2rem;
+    left: -2rem;
+    animation-delay: 0.3s;
+}
+.__bouncingBall img {
+    max-width: 150px;
+}
+.__sectionHeader {
+    padding: 50px 0px;
+}
+.__sectionHeader h2 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+.__sectionHeader p {
+    color: #151218;
+    font-size: 16px;
+}
+.__imgTranslateY1 {
+    transform: translateY(-3rem);
+}
+.__imgTranslateY2 {
+    transform: translateY(-200px);
+}
+/* About pages */
+/* Footer */
+footer {
+    background-color: #151218;
+}
+.__innerFooter {
+    padding: 70px 15px 15px;
+    color: #FFF;
+}
+.__innerFooter .__footerLogo {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+.__innerFooter .links a {
+    padding-right: 15px;
+}
+.__innerFooter .links a i {
+    font-size: 24px;
+}
+.__innerFooter .__footerTitle::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    height: 0.8rem;
+    width: 0.8rem;
+    background: #fff;
+    border-radius: 5px 5px 5px 15px;
+}
+.__innerFooter .__footerTitle {
+    font-size: 1.4rem;
+    padding-left: 0.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.__innerFooter ul.__footerItem {
+    padding: 0;
+}
+.__innerFooter ul.__footerItem li.item {
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+.__innerFooter ul.__footerItem li.item a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFF;
+}
+.__copyrightSection {
+    margin: 30px auto 15px;
+    font-size: 1rem;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 786px) {
+    .__mobileIcon {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav {
+        position: relative;
+    }
+    .contact.__heroSection p.__subheader {
+        width: 90%;
+    }
+    .about.__heroSection p.__subheader {
+        width: 100%;
+    }
+    .__imgTranslateY1 {
+        transform: translateY(1rem);
+    }
+    .__imgTranslateY2 {
+        transform: translateY(2rem);
+    }
+    .__heroSection {
+        padding: 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .__heroSection h2.__header {
+        font-size: 2.4rem;
+    }
+    .__contactArea .__innerArea img {
+        max-width: 100%;
+    }
+    .__contactArea p.__message {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .__sectionHeader h2 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+}
